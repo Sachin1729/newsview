@@ -3,6 +3,6 @@ export interface NewsItem {
     title: string;
     description: string;
     url: string;
-    image?: string;
+    urlToImage?: string;
     publishedAt?: string;
   }

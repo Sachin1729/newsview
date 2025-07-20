@@ -10,9 +10,9 @@ const NewsCard = ({ item }: { item: NewsItem }) => {
       className="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transition-transform hover:scale-[1.01] cursor-pointer"
       onClick={handleClick}
     >
-      {item.image && (
+      {item.urlToImage && (
         <img
-          src={item.image}
+          src={item.urlToImage}
           alt={item.title}
           className="w-full h-48 object-cover"
         />
